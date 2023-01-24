@@ -20,7 +20,7 @@ Unit offers to divide the network into two types of nodes: **Shard** and **Core*
 
 **Core** nodes are intended to keep the main network executing ***light*** transactions (those that do not require interaction with a large amount of data).
 
-![core-shard-diagram](/Users/kirillzhukov/Documents/GitHub/whitepaper/whitePaper/static/core_blockchain_structure.drawio.svg)
+![core-shard-diagram](https://raw.githubusercontent.com/Unit-chain/whitepaper/e9f2b4da29fd186c91d46efbb9a9c47d4064a9e1/whitePaper/static/core_blockchain_structure.drawio.svg)
 
 ### Future-blocks
 
@@ -50,7 +50,7 @@ The **Unit Virtual Machine** or **Theia Virtual Machine (TVM)** is nothing more 
 
 In contrast to the [Ethereum Virtual Machine (EVM)](https://ethereum.org/en/developers/docs/evm/), TVM supports [reflection](https://en.wikipedia.org/wiki/Reflective_programming) and ***events***. They are necessary to connect contracts and their methods (both from helper classes and directly from them) and when accessing data handlers on the **Shard-node**, ***events*** are used specifically.
 
-![TVM interacting types](/Users/kirillzhukov/Documents/GitHub/whitepaper/whitePaper/static/VM_interacting_types.drawio.svg)
+![TVM interacting types](https://raw.githubusercontent.com/Unit-chain/whitepaper/e9f2b4da29fd186c91d46efbb9a9c47d4064a9e1/whitePaper/static/VM_interacting_types.drawio.svg)
 
 One of the major benefits of **TVM** is the ability to use it outside the blockchain for ordinary applications (more on this in the **Theia** language section). To interact with this and **TVM**, a [VFS](https://en.wikipedia.org/wiki/Virtual_file_system) is used to ensure the security of the data of the OS on which **TVM** runs, accordingly, data management within the contract will not differ significantly from working with files in a regular OS.
 
@@ -64,7 +64,7 @@ Due to this simple math, the owners of **Shard-nodes** have reason to raise thes
 
 ### Interaction with data on Shard-nodes
 
-![shard core](/Users/kirillzhukov/Documents/GitHub/whitepaper/whitePaper/static/shard_core.drawio.svg)
+![shard core](https://raw.githubusercontent.com/Unit-chain/whitepaper/e9f2b4da29fd186c91d46efbb9a9c47d4064a9e1/whitePaper/static/shard_core.drawio.svg)
 
 With the emergence of **Shard-nodes** in the blockchain, the concept of ***request*** is first introduced, which is a regular request to a contract, for example, a social network for sending a message from *User_1* to *User_2*. Then all expenses are transferred to the contract owner, which allows this social network to interact with its storage (as in WEB1/2). However, to send data, such as files from *User_1* to *User_2*, they will have to pay a one-time commission of $\epsilon$(the formula is provided above), as this is a fee for placing data, but this is only one way of interaction, which is more of a recommendation, the final implementation is entirely up to the specific developer.
 
