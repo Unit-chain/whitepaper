@@ -2,11 +2,11 @@
 
 
 
-<p style="text-align: center;">Kirill Zhukov, George Stolyarov</p>
+[Kirill Zhukov](https://github.com/Abuzik), [George Stolyarov](https://github.com/TorgaW)
 
-<p style="text-align: center;">E-MAIL: unitchainorg@gmail.com</p>
+E-MAIL: unitchainorg@gmail.com
 
-<p style="text-align: center;">www.unitchain.org</p>
+www.unitchain.org
 
 ## 1. Introduction.
 
