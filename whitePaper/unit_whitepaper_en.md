@@ -72,6 +72,18 @@ With the emergence of **Shard-nodes** in the blockchain, the concept of ***reque
 
 Also, users who rent decentralized file space have the right to access their data, share access to them (in the standard contract, which provides standard data processing, the addresses of wallets that have access to the storage will be specified, they can be added or removed unconditionally), throughout the entire time that they have paid for.
 
+### Main features 
+
+Interaction with files on **Shard-nodes** is similar to operating systems. All files have access flags, which means that if a file was created by *User_1*, they can set these flags to control access to the files by anyone, so *User_2* will not be able to open files without the necessary permissions.
+
+Access rights are regulated by [zero-knowledge proof](https://en.wikipedia.org/wiki/Zero-knowledge_proof) and decryption keys for files if needed.
+
+From the above, it can be understood that the language provides the ability to divide rights, this can be useful for:
+
+1. dividing roles on different resources, which means that "moderators", "admins", etc. can be created as needed.
+2. hiding files from general view (in addition to encryption, which originally implies the impossibility of decrypting files)
+3. creating private resources (websites, etc.)
+
 ### Theia 
 
 The name of the language comes from the name of the ancient Greek goddess [Theia](https://en.wikipedia.org/wiki/Theia), who was the daughter of [Uranus](https://en.wikipedia.org/wiki/Uranus_(mythology)) and [Gaia](https://en.wikipedia.org/wiki/Gaia). This goddess was not chosen by chance. Her father, Uranus, is the son of the god of chaos, [Aether](https://en.wikipedia.org/wiki/Aether_(mythology)), in some myths. Try to find the reference :)
