@@ -72,7 +72,7 @@ With the emergence of **Shard-nodes** in the blockchain, the concept of ***reque
 
 Also, users who rent decentralized file space have the right to access their data, share access to them (in the standard contract, which provides standard data processing, the addresses of wallets that have access to the storage will be specified, they can be added or removed unconditionally), throughout the entire time that they have paid for.
 
-### Main features 
+### Main features Shard-nodes
 
 Interaction with files on **Shard-nodes** is similar to operating systems. All files have access flags, which means that if a file was created by *User_1*, they can set these flags to control access to the files by anyone, so *User_2* will not be able to open files without the necessary permissions.
 
