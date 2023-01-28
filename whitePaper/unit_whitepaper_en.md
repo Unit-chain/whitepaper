@@ -2,7 +2,7 @@
 
 
 
-[Kirill Zhukov](https://github.com/Abuzik), [George Stolyarov](https://github.com/TorgaW)
+[Kirill Zhukov](https://github.com/g2px1), [George Stolyarov](https://github.com/TorgaW)
 
 E-MAIL: unitchainorg@gmail.com
 
