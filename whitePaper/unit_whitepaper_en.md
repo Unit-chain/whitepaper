@@ -36,6 +36,7 @@ The **Unit Virtual Machine** or **Theia Virtual Machine (TVM)** is nothing more 
 
 | Data type | Note                                                         |
 | --------- | ------------------------------------------------------------ |
+| bool      | true/false                                                   |
 | byte      | signed type from -128 to 127, inclusive                      |
 | short     | signed type from -32768 to 32767, inclusive                  |
 | int       | signed type from -2147483648 to 2147483647, inclusive        |
