@@ -32,7 +32,7 @@ After a **Core-node** is selected to provide a block, other nodes begin to provi
 
 ### Unit Virtual Machine
 
-The **Unit Virtual Machine** or **Theia Virtual Machine (TVM)** is nothing more than a [Turing-complete](https://en.wikipedia.org/wiki/Turing_completeness) virtual machine with [JIT](https://en.wikipedia.org/wiki/Just-in-time_compilation) to provide platform-independent execution speed close to C/C++. The Theia virtual machine provides a wide range of tools, including unsigned integers from 32 to 256 bits. Using numbers less than 256 bits can save computational power for, for example, calculating small sums of transfers (or gas price). Full list of native supported data types (as of 2023):
+The **Unit Virtual Machine** or **Theia Virtual Machine (TVM)** is nothing more than a [Turing-complete](https://en.wikipedia.org/wiki/Turing_completeness) virtual machine with [JIT compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation), which is necessary to provide a platform-independent execution speed comparable to C/C++.. The Theia virtual machine provides a wide range of tools, including unsigned integers from 32 to 256 bits. Using numbers less than 256 bits can save computational power for, for example, calculating small sums of transfers (or gas price). Full list of native supported data types (as of 2023):
 
 | Data type | Note                                                         |
 | --------- | ------------------------------------------------------------ |
