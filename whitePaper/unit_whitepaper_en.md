@@ -4,7 +4,7 @@
 
 [Kirill Zhukov](https://github.com/g2px1), [George Stolyarov](https://github.com/TorgaW)
 
-E-MAIL: unitchainorg@gmail.com
+E-MAIL: unit@unitchain.org
 
 www.unitchain.org
 
